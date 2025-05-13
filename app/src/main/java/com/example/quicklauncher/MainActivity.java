@@ -1,9 +1,13 @@
 package com.example.quicklauncher;
 
+import android.content.ActivityNotFoundException;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -37,6 +41,24 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button googleBtn = (Button)findViewById(R.id.googleBtn);
+        googleBtn.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                String google = "http://www.google.com";
+                Uri webadress = Uri.parse(google);
+
+                Intent gotoGoogle = new Intent(Intent.ACTION_VIEW, webadress);
+
+                try {
+                    startActivity(gotoGoogle);
+                } catch (ActivityNotFoundException e) {
+                    Toast.makeText(MainActivity.this, "No browser found!", Toast.LENGTH_SHORT).show();
+                }
+
+            }
+        });
 
 
 
