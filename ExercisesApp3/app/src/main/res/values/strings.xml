@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ListApp</string>
+
+    <string-array name="items">
+        <item>apple</item>
+        <item>banana</item>
+        <item>orange</item>
+    </string-array>
+
+    <string-array name="prices">
+        <item>3.50</item>
+        <item>4.29</item>
+        <item>1.75</item>
+    </string-array>
+
+    <string-array name="descriptions">
+        <item>Jonagold apples from Poland</item>
+        <item>Tasty bananas from Brasil</item>
+        <item>Fresh oranges from Spain</item>
+    </string-array>
+</resources>
