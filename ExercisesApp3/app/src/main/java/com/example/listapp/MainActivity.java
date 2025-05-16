@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int i, long id) {
                 Intent showDetailActivity = new Intent(getApplicationContext(), DetailActivity.class);
-                showDetailActivity.putExtra("com.example.IEM_INDEX", i);
+                showDetailActivity.putExtra("com.example.ITEM_INDEX", i);
                 startActivity(showDetailActivity);
             }
         });
