@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">PlantTracker</string>
+
+    <string-array name="plant_names">
+        <item>Monstera</item>
+        <item>Aloe Vera</item>
+        <item>Cactus</item>
+    </string-array>
+
+    <string-array name="plant_descriptions">
+        <item>Tropical plant with big green leaves</item>
+        <item>Succulent plant used in skincare and medicine</item>
+        <item>Hardy desert plant with spikes</item>
+    </string-array>
+
+    <string-array name="plant_wiki_urls">
+        <item>https://en.wikipedia.org/wiki/Monstera</item>
+        <item>https://en.wikipedia.org/wiki/Aloe_vera</item>
+        <item>https://en.wikipedia.org/wiki/Cactus</item>
+    </string-array>
 </resources>
