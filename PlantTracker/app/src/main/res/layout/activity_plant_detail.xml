@@ -13,9 +13,9 @@
         <ImageView
             android:id="@+id/plantImageView"
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="400dp"
             android:contentDescription="Plant image"
-            android:scaleType="centerCrop" />
+            android:scaleType="fitCenter" />
 
         <TextView
             android:id="@+id/plantNameDetailTextView"
