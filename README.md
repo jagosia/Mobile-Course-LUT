@@ -1,8 +1,8 @@
 # Mobile-Course-LUT
 
-##ExercisesApp
-##QuickLauncher
-##ListApp
+## ExercisesApp
+## QuickLauncher
+## ListApp
 
 Applications made by following given tutorial videos.
 They can be found respectively in ExercisesApp, ExercisesApp2 and ExercisesApp3.
