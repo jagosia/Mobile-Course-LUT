@@ -12,12 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PlantTracker"
         tools:targetApi="31">
+
+        <!-- Dodany wpis dla aktywności szczegółów rośliny -->
+        <activity android:name=".PlantDetailActivity" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

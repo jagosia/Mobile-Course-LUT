@@ -46,12 +46,11 @@ public class PlantAdapter extends BaseAdapter {
         TextView nameTextView = convertView.findViewById(R.id.plantNameTextView);
         TextView descriptionTextView = convertView.findViewById(R.id.plantDescriptionTextView);
         TextView waterAmountTextView = convertView.findViewById(R.id.waterAmountTextView);
-        ImageView plantImageView = convertView.findViewById(R.id.plantImageView);
+
 
         nameTextView.setText(currentPlant.getName());
         descriptionTextView.setText(currentPlant.getDescription());
         waterAmountTextView.setText("Watered: " + currentPlant.getWaterAmount() + " ml");
-        plantImageView.setImageResource(currentPlant.getImageResId());
 
         return convertView;
     }

@@ -17,6 +17,7 @@ public class Plant {
 
     public String getName() { return name; }
     public String getDescription() { return description; }
+    public void setWaterAmount(int waterAmount) { this.waterAmount = waterAmount; }
     public int getWaterAmount() { return waterAmount; }
     public int getImageResId() { return imageResId; }
     public String getWikiUrl() { return wikiUrl; }
